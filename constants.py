@@ -10,5 +10,6 @@ endpoints = {
     'team_season_stats': 'stats/season',
     'team_roster': 'roster',
     'team_stats': 'teams',
-    'player_season_stats': 'stats/player/season'
+    'player_season_stats': 'stats/player/season',
+    'fbs_teams': 'teams/fbs'
 }

@@ -4,8 +4,8 @@ from constants import endpoints
 
 
 class Requester:
-    def __init__(self, base_url, headers, year, season_type):
-        self.base_url = base_url
+    def __init__(self, headers, year, season_type):
+        self.base_url = 'https://api.collegefootballdata.com/'
         self.headers = headers
         self.year = year
         self.season_type = season_type

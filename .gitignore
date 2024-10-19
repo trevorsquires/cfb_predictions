@@ -1,1 +1,3 @@
 local_secrets.py
+graph_img/
+__pycache__/*
