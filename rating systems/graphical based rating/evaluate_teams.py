@@ -1,4 +1,4 @@
-from requester import Requester
+from src.requester import Requester
 from local_secrets import headers
 import pandas as pd
 import networkx as nx

@@ -1,11 +1,9 @@
-from requester import Requester
+from src.requester import Requester
 import pandas as pd
 from local_secrets import *
 
 
 def init_rankings(ratings_file_name):
-
-
     base_url = 'https://api.collegefootballdata.com/'
     requester = Requester(base_url, headers, year=2024, season_type='regular')
     teams = requester.get_statistic('fbs_teams')

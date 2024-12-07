@@ -1,4 +1,4 @@
-from requester import Requester
+from src.requester import Requester
 from local_secrets import *
 import pandas as pd
 

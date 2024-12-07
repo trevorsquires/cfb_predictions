@@ -1,6 +1,5 @@
-import pandas as pd
 import requests
-from constants import endpoints
+from src.constants import endpoints
 
 
 class Requester:
